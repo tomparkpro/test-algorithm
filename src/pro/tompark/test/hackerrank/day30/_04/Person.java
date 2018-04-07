@@ -3,6 +3,8 @@ package pro.tompark.test.hackerrank.day30._04;
 import java.util.Scanner;
 
 /**
+ * Day 4: Class vs. Instance
+ *
  * https://www.hackerrank.com/challenges/30-class-vs-instance/problem
  */
 public class Person {
