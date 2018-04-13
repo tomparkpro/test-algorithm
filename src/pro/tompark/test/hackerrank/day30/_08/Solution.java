@@ -7,6 +7,10 @@ import java.util.*;
  *
  * @author tom.hyunung.park@gmail.com
  * github : http://github.com/tomparkpro
+ * <p>
+ * Day 8: Dictionaries and Maps
+ * <p>
+ * https://www.hackerrank.com/challenges/30-dictionaries-and-maps/problem
  */
 public class Solution {
 
@@ -27,7 +31,7 @@ public class Solution {
             String s = in.next();
             // Write code here
             Integer phone = phoneBook.get(s);
-            if(phone == null) {
+            if (phone == null) {
                 resultList.add("Not found");
             } else {
                 resultList.add(s + "=" + phone);
