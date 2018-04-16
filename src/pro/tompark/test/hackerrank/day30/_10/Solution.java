@@ -7,6 +7,10 @@ import java.util.Scanner;
  *
  * @author tom.hyunung.park@gmail.com
  * github : http://github.com/tomparkpro
+ * <p>
+ * Day 10: Binary Numbers
+ * <p>
+ * https://www.hackerrank.com/challenges/30-binary-numbers/problem
  */
 public class Solution {
 
@@ -23,7 +27,7 @@ public class Solution {
 //                System.err.println(bit);
                 if (bit == '1') {
                     consecutive++;
-                } else if(bit == '0') {
+                } else if (bit == '0') {
                     consecutive = 0;
                 }
 
