@@ -5,7 +5,6 @@ package pro.tompark.test.hackerrank.day30._13;
  *
  * @author tom.hyunung.park@gmail.com
  * github : http://github.com/tomparkpro
- *
  */
 abstract class Book {
     String title;
