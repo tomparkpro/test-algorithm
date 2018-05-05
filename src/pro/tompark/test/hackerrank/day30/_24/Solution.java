@@ -27,7 +27,19 @@ class Solution {
 
     public static Node removeDuplicates(Node head) {
         //Write your code here
-        return null;
+        if (head == null || head.next == null) {
+            return head;
+        }
+
+        Node root = insert(null, head.data);
+        while (head.next != null) {
+            if (head.data != head.next.data) {
+                root = insert(root, head.next.data);
+            }
+            head = head.next;
+        }
+
+        return root;
     }
 
     public static Node insert(Node head, int data) {
